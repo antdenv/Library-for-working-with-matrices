@@ -1,0 +1,22 @@
+#ifndef PROJECT_INCLUDE_CREATE_ENUMS_H_
+#define PROJECT_INCLUDE_CREATE_ENUMS_H_
+
+typedef enum Task {
+    END,
+    FORCED_END,
+    READ_FIRST_CHARACTER,
+    READ_FIRST_WORD,
+    SKIP_LINE,
+    READ_BLOCK,
+    SEARCH_FOR_BOUNDARIES
+} Task;
+
+typedef enum Header {
+    SENDER,
+    RECEIVER,
+    DATE,
+    CONTENT_TYPE,
+    MISMATCH
+} Header;
+
+#endif  // PROJECT_INCLUDE_CREATE_ENUMS_H_

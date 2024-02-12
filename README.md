@@ -1,1 +1,1 @@
-Projects_technopark
+Library for working with matrices
